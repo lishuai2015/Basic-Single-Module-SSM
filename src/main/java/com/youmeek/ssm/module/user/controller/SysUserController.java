@@ -48,6 +48,11 @@ public class SysUserController {
 		return new Date();
 	}
 	
+	
+	public void testMerge(){
+		System.out.println("SysUserController.testMerge()");
+	}
+	
 
 
 
