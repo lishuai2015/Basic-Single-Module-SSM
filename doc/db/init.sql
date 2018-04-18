@@ -7,7 +7,7 @@ FLUSH PRIVILEGES;
 
 
 # 创建表
-USE ssm;
+USE test_ssm;
 CREATE TABLE `sys_user` (
   `sys_user_id` bigint(20) NOT NULL,
   `sys_user_login_name` varchar(50) NOT NULL,
